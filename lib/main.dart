@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:nbytebank/models/saldo.model.dart';
-import 'package:nbytebank/models/transferencias.model.dart';
-import 'package:nbytebank/pages/dashboard/dashboard.page.dart';
+import 'models/saldo.model.dart';
+import 'models/transferencias.model.dart';
+import 'pages/dashboard/dashboard.page.dart';
+
 
 void main() {
   runApp(MultiProvider(
@@ -16,7 +17,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override

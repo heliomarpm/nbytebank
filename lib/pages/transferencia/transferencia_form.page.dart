@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:nbytebank/components/editor.dart';
-import 'package:nbytebank/models/saldo.model.dart';
-import 'package:nbytebank/models/transferencia.model.dart';
-import 'package:nbytebank/models/transferencias.model.dart';
 import 'package:provider/provider.dart';
+
+import '../../components/editor.dart';
+import '../../models/saldo.model.dart';
+import '../../models/transferencia.model.dart';
+import '../../models/transferencias.model.dart';
 
 const _tituloAppBar = 'Criando Transferência';
 
@@ -19,7 +20,7 @@ class TransferenciaFormPage extends StatelessWidget {
   final _controladorCampoNumeroConta = TextEditingController();
   final _controladorCampoValor = TextEditingController();
 
-  TransferenciaFormPage({Key? key}) : super(key: key);
+  TransferenciaFormPage({super.key});
 
   @override
   Widget build(BuildContext context) {

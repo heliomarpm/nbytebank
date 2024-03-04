@@ -1,12 +1,13 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:nbytebank/models/transferencias.model.dart';
-import 'package:nbytebank/pages/transferencia/transferencia_lista.page.dart';
 import 'package:provider/provider.dart';
 
+import '../../models/transferencias.model.dart';
+import '../../pages/transferencia/transferencia_lista.page.dart';
+
 class UltimasTransferencias extends StatelessWidget {
-  const UltimasTransferencias({Key? key}) : super(key: key);
+  const UltimasTransferencias({super.key});
 
   @override
   Widget build(BuildContext context) {

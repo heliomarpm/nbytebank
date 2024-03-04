@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:nbytebank/pages/dashboard/saldo_card.dart';
-import 'package:nbytebank/pages/deposito/deposito_form.page.dart';
-import 'package:nbytebank/pages/transferencia/transferencia_form.page.dart';
-import 'package:nbytebank/pages/transferencia/transferencia_lista.page.dart';
-import 'package:nbytebank/pages/transferencia/ultimas_transferencias.dart';
+
+import '../dashboard/saldo_card.dart';
+import '../deposito/deposito_form.page.dart';
+import '../transferencia/transferencia_form.page.dart';
+import '../transferencia/ultimas_transferencias.dart';
 
 class DashboardPage extends StatelessWidget {
-  const DashboardPage({Key? key}) : super(key: key);
+  const DashboardPage({super.key});
 
   @override
   Widget build(BuildContext context) {

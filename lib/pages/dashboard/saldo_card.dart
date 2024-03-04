@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:nbytebank/models/saldo.model.dart';
 import 'package:provider/provider.dart';
+
+import '../../models/saldo.model.dart';
 
 class SaldoCard extends StatelessWidget {
 
-  const SaldoCard({Key? key}) : super(key: key);
+  const SaldoCard({super.key});
 
   @override
   Widget build(BuildContext context) {

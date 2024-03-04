@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:nbytebank/models/transferencia.model.dart';
-import 'package:nbytebank/models/transferencias.model.dart';
-import 'package:nbytebank/pages/transferencia/transferencia_form.page.dart';
 import 'package:provider/provider.dart';
+
+
+import '../../models/transferencia.model.dart';
+import '../../models/transferencias.model.dart';
+import '../../pages/transferencia/transferencia_form.page.dart';
 
 const _tituloAppBar = 'Transferências';
 
 class TransferenciaListaPage extends StatelessWidget {
-  const TransferenciaListaPage({Key? key}) : super(key: key);
+  const TransferenciaListaPage({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:nbytebank/models/transferencia.model.dart';
+
+import 'transferencia.model.dart';
 
 class TransferenciasModel extends ChangeNotifier {
   
