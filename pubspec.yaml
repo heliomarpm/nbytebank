@@ -13,6 +13,9 @@ dependencies:
         
     cupertino_icons: ^1.0.6
     provider: ^6.1.2
+    device_preview:
+        git:
+            url: https://github.com/heliomarpm/flutter_device_preview.git
 
 dev_dependencies:
     flutter_lints: ^3.0.1
